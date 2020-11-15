@@ -1,0 +1,1 @@
+cat endpoints.txt | grep -e "https://" -e "http://" -e "www." |httpx status-code follow-redirects > JSURLs.txt
